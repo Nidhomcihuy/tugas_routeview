@@ -1,0 +1,251 @@
+/* Gaya dasar dan variabel warna */
+:root {
+    --color-primary-blue: #00BFFF; /* Biru terang */
+    --color-dark-background: #0A0A0A; /* Hampir hitam */
+    --color-light-text: #E0E0E0;
+    --color-dark-gray: #1A1A1A;
+    --color-medium-gray: #2B2B2B;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-dark-background);
+    color: var(--color-light-text);
+    overflow-x: hidden;
+}
+.text-primary-blue { color: var(--color-primary-blue); }
+.bg-primary-blue { background-color: var(--color-primary-blue); }
+.border-primary-blue { border-color: var(--color-primary-blue); }
+.section-padding { padding: 80px 20px; }
+
+/* Gaya untuk section container */
+section {
+    position: relative;
+    z-index: 10;
+}
+section:nth-child(even) {
+    background-color: var(--color-dark-gray);
+}
+
+/* Animasi Pop-up */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Lebih gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
+    backdrop-filter: blur(8px); /* Blur lebih kuat */
+}
+
+.modal-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: var(--color-dark-gray);
+    color: var(--color-light-text);
+    padding: 30px;
+    border-radius: 16px; /* Lebih rounded */
+    max-width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: scale(0.7) translateY(20px); /* Mulai dari lebih kecil dan sedikit ke bawah */
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    opacity: 0;
+    position: relative;
+    box-shadow: 0 15px 40px rgba(0, 191, 255, 0.5); /* Shadow lebih menonjol */
+    border: 1px solid rgba(0, 191, 255, 0.2); /* Border halus */
+}
+
+.modal-overlay.open .modal-content {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 32px; /* Lebih besar */
+    color: var(--color-primary-blue);
+    cursor: pointer;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.modal-close:hover {
+    color: #87CEFA;
+    transform: rotate(90deg); /* Animasi putar */
+}
+
+/* Animasi elemen on hover untuk portfolio item */
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: var(--color-dark-gray);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.portfolio-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 191, 255, 0.1), rgba(0, 191, 255, 0));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 0;
+}
+.portfolio-item:hover {
+    transform: translateY(-8px); /* Sedikit naik */
+    box-shadow: 0 15px 30px rgba(0, 191, 255, 0.4);
+    background-color: var(--color-medium-gray);
+}
+.portfolio-item:hover::before {
+    opacity: 1;
+}
+.portfolio-item img {
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio-item:hover img {
+    transform: scale(1.03); /* Sedikit zoom pada gambar */
+}
+.portfolio-item > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Animasi masuk elemen saat scroll */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95); /* Sedikit geser dan zoom out */
+    transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Efek Typing untuk hero section */
+#typing-text {
+    border-right: 3px solid var(--color-primary-blue); /* Border lebih tebal */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3.5s steps(30, end) forwards, blink-caret .8s step-end infinite;
+    font-weight: 600; /* Lebih tebal */
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--color-primary-blue); }
+}
+
+/* Loading spinner */
+.loading-spinner {
+    border: 4px solid rgba(255,255,255,0.3);
+    border-top: 4px solid var(--color-primary-blue);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section-padding {
+        padding: 60px 15px;
+    }
+    .h-screen {
+        min-height: 100vh; /* Ensure full height on mobile */
+    }
+    #home h1 {
+        font-size: 3.5rem; /* Ukuran font lebih kecil di mobile */
+    }
+    #typing-text {
+        font-size: 1.5rem;
+    }
+    .modal-content {
+        padding: 20px;
+    }
+    .modal-close {
+        font-size: 24px;
+        top: 10px;
+        right: 10px;
+    }
+}
+@media (max-width: 480px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+    #typing-text {
+        font-size: 1.25rem;
+    }
+    .portfolio-item img {
+        height: 180px;
+    }
+}
+
+/* Custom glow effect for headers */
+.glow-text {
+    text-shadow: 0 0 8px var(--color-primary-blue), 0 0 15px var(--color-primary-blue);
+}
+
+/* Hero section specific styling for dynamic feel */
+.hero-bg-gradient {
+    background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 50%, #0A0A0A 100%);
+}
+
+/* Skill & Education cards */
+.skill-card {
+    background-color: var(--color-dark-gray);
+    border: 1px solid rgba(0, 191, 255, 0.1);
+    border-radius: 12px;
+    padding: 2.5rem; /* Lebih banyak padding */
+    transition: all 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+.skill-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 191, 255, 0.3);
+    background-color: var(--color-medium-gray);
+}
+.skill-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, rgba(0, 191, 255, 0.05) 0%, transparent 70%);
+    transform: scale(0);
+    transition: transform 0.5s ease-out;
+    z-index: 0;
+}
+.skill-card:hover::before {
+    transform: scale(1);
+}
+.skill-card > * {
+    position: relative;
+    z-index: 1;
+}
