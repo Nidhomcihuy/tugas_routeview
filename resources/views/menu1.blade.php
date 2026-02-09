@@ -79,23 +79,23 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.2s;">
                 <h3 class="text-3xl font-bold text-white mb-6">Nama:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Nama Anggota 1]</p>
+                <p class="text-gray-300 text-lg mb-4">Eka Indah Febriyanti</p>
                 <h3 class="text-3xl font-bold text-white mb-6">TTL:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Tempat, Tanggal Lahir]</p>
+                <p class="text-gray-300 text-lg mb-4">Bojonegoro, 02 Februari 2006</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Alamat:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Alamat Lengkap]</p>
+                <p class="text-gray-300 text-lg mb-4">Desa Sambeng, Kecamatan Kasiman Kabupaten Bojonegoro</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Email:</h3>
-                <p class="text-gray-300 text-lg">[Email Address]</p>
+                <p class="text-gray-300 text-lg">ekai60360@gmail.com</p>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.4s;">
                 <h3 class="text-3xl font-bold text-white mb-6">Nama:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Nama Anggota 2]</p>
+                <p class="text-gray-300 text-lg mb-4">A'an Abdul Nidhom</p>
                 <h3 class="text-3xl font-bold text-white mb-6">TTL:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Tempat, Tanggal Lahir]</p>
+                <p class="text-gray-300 text-lg mb-4">Bojonegoro, 10 Mei 2006</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Alamat:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Alamat Lengkap]</p>
+                <p class="text-gray-300 text-lg mb-4">Desa Betet, Kecamatan Kasiman Kabupaten Bojonegoro</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Email:</h3>
-                <p class="text-gray-300 text-lg">[Email Address]</p>
+                <p class="text-gray-300 text-lg">aanduln10@gmail.com</p>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.6s;">
                 <h3 class="text-3xl font-bold text-white mb-6">Nama:</h3>
@@ -124,33 +124,41 @@
         <h2 class="text-5xl font-extrabold text-center mb-16 text-primary-blue glow-text">Riwayat Pendidikan Anggota</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.2s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 1]</h3>
+                <h3 class="text-3xl font-bold text-white mb-6">Eka</h3>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-school mr-2"></i>SD</h4>
-                    <p class="text-gray-300 text-sm">[Nama SD] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SD Negeri 1 Sambeng</p>
                 </div>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-book mr-2"></i>SMP/MTS</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMP/MTS] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMP Negeri 1 Kasiman</p>
                 </div>
                 <div>
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-graduation-cap mr-2"></i>SMA/SMK</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMA/SMK] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMK Negeri Kasiman</p>
+                </div>
+                <div class="mt-6">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-university mr-2"></i>Perguruan Tinggi</h4>
+                    <p class="text-gray-300 text-sm">Politeknik Negeri Jember - Jurusan Teknologi Informasi (Teknik Informatika)</p>
                 </div>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.4s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 2]</h3>
+                <h3 class="text-3xl font-bold text-white mb-6">A'an</h3>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-school mr-2"></i>SD</h4>
-                    <p class="text-gray-300 text-sm">[Nama SD] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SD Negeri 1 Besah</p>
                 </div>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-book mr-2"></i>SMP/MTS</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMP/MTS] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMP Negeri 1 Kasiman</p>
                 </div>
                 <div>
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-graduation-cap mr-2"></i>SMA/SMK</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMA/SMK] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMK Negeri Kasiman</p>
+                </div>
+                <div class="mt-6">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-university mr-2"></i>Perguruan Tinggi</h4>
+                    <p class="text-gray-300 text-sm">Politeknik Negeri Jember - Jurusan Teknologi Informasi (Teknik Informatika)</p>
                 </div>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.6s;">
@@ -167,6 +175,10 @@
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-graduation-cap mr-2"></i>SMA/SMK</h4>
                     <p class="text-gray-300 text-sm">[Nama SMA/SMK] - [Tahun Lulus]</p>
                 </div>
+                <div class="mt-6">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-university mr-2"></i>Perguruan Tinggi</h4>
+                    <p class="text-gray-300 text-sm">[Nama Perguruan Tinggi] - [Program Studi]</p>
+                </div>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.8s;">
                 <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 4]</h3>
@@ -182,12 +194,16 @@
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-graduation-cap mr-2"></i>SMA/SMK</h4>
                     <p class="text-gray-300 text-sm">[Nama SMA/SMK] - [Tahun Lulus]</p>
                 </div>
+                <div class="mt-6">
+                    <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-university mr-2"></i>Perguruan Tinggi</h4>
+                    <p class="text-gray-300 text-sm">[Nama Perguruan Tinggi] - [Program Studi]</p>
+                </div>
             </div>
         </div>
     </section>
     <!-- Portfolio Section -->
     <section id="portfolio" class="section-padding container mx-auto px-4 py-20 animate-on-scroll">
-        <h2 class="text-5xl font-extrabold text-center mb-16 text-primary-blue glow-text">Data Prestasi Anggota Kelompok</h2>
+        <h2 class="text-5xl font-extrabold text-center mb-16 text-primary-blue glow-text">Data Prestasi</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.2s;">
                 <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 1]</h3>
