@@ -99,23 +99,23 @@
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.6s;">
                 <h3 class="text-3xl font-bold text-white mb-6">Nama:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Nama Anggota 3]</p>
+                <p class="text-gray-300 text-lg mb-4">Zahra nur risqona</p>
                 <h3 class="text-3xl font-bold text-white mb-6">TTL:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Tempat, Tanggal Lahir]</p>
+                <p class="text-gray-300 text-lg mb-4">Wonogiri, 21 oktober 2006</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Alamat:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Alamat Lengkap]</p>
+                <p class="text-gray-300 text-lg mb-4">Kab Wonogiri</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Email:</h3>
-                <p class="text-gray-300 text-lg">[Email Address]</p>
+                <p class="text-gray-300 text-lg">zahranurrisqona@gmail.com</p>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.8s;">
                 <h3 class="text-3xl font-bold text-white mb-6">Nama:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Nama Anggota 4]</p>
+                <p class="text-gray-300 text-lg mb-4">Anugrah tejo maliki</p>
                 <h3 class="text-3xl font-bold text-white mb-6">TTL:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Tempat, Tanggal Lahir]</p>
+                <p class="text-gray-300 text-lg mb-4">Sidoarjo, 11 maret 2005</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Alamat:</h3>
-                <p class="text-gray-300 text-lg mb-4">[Alamat Lengkap]</p>
+                <p class="text-gray-300 text-lg mb-4">Kec tarik, Kabupaten Sidoarjo</p>
                 <h3 class="text-3xl font-bold text-white mb-6">Email:</h3>
-                <p class="text-gray-300 text-lg">[Email Address]</p>
+                <p class="text-gray-300 text-lg">anugrahtejomaliki@gmail.com</p>
             </div>
         </div>
     </section>
@@ -162,41 +162,41 @@
                 </div>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.6s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 3]</h3>
+                <h3 class="text-3xl font-bold text-white mb-6">Zahra nur risqona</h3>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-school mr-2"></i>SD</h4>
-                    <p class="text-gray-300 text-sm">[Nama SD] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SD Negeri 1 Wonogiri</p>
                 </div>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-book mr-2"></i>SMP/MTS</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMP/MTS] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMP Negeri 1 Wonogiri</p>
                 </div>
                 <div>
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-graduation-cap mr-2"></i>SMA/SMK</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMA/SMK] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMA Negeri Wonogiri</p>
                 </div>
                 <div class="mt-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-university mr-2"></i>Perguruan Tinggi</h4>
-                    <p class="text-gray-300 text-sm">[Nama Perguruan Tinggi] - [Program Studi]</p>
+                    <p class="text-gray-300 text-sm">Politeknik Negeri Jember - Jurusan Teknologi Informasi (Teknik Informatika)</p>
                 </div>
             </div>
             <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.8s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 4]</h3>
+                <h3 class="text-3xl font-bold text-white mb-6">Anugrah tejo maliki</h3>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-school mr-2"></i>SD</h4>
-                    <p class="text-gray-300 text-sm">[Nama SD] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SD Negeri 1 Tarik</p>
                 </div>
                 <div class="mb-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-book mr-2"></i>SMP/MTS</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMP/MTS] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMP Negeri 1 Tarik</p>
                 </div>
                 <div>
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-graduation-cap mr-2"></i>SMA/SMK</h4>
-                    <p class="text-gray-300 text-sm">[Nama SMA/SMK] - [Tahun Lulus]</p>
+                    <p class="text-gray-300 text-sm">SMK Negeri Tarik</p>
                 </div>
                 <div class="mt-6">
                     <h4 class="text-xl font-bold text-primary-blue mb-2"><i class="fas fa-university mr-2"></i>Perguruan Tinggi</h4>
-                    <p class="text-gray-300 text-sm">[Nama Perguruan Tinggi] - [Program Studi]</p>
+                    <p class="text-gray-300 text-sm">Politeknik Negeri Jember - Jurusan Teknologi Informasi (Teknik Informatika)</p>
                 </div>
             </div>
         </div>
@@ -204,75 +204,54 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="section-padding container mx-auto px-4 py-20 animate-on-scroll">
         <h2 class="text-5xl font-extrabold text-center mb-16 text-primary-blue glow-text">Data Prestasi</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-            <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.2s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 1]</h3>
-                <div class="space-y-3">
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 1]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 2]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 3]</span>
-                    </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            @php
+                $students = [
+                    "A'an Abdul Nidhom",
+                    "Eka Indah Febriyanti",
+                    "Zahra nur risqona",
+                    "Anugrah tejo maliki"
+                ];
+            @endphp
+
+            @foreach($students as $student)
+            <div class="skill-card p-6 rounded-xl bg-dark-gray shadow-lg border border-gray-800 flex flex-col h-full animate-on-scroll hover:transform hover:scale-105 transition duration-300">
+                <h3 class="text-xl font-bold text-white mb-4 text-center border-b border-gray-700 pb-2 h-16 flex items-center justify-center">{{ $student }}</h3>
+                <div class="space-y-3 flex-grow">
+                    @if(isset($prestasis[$student]))
+                        @foreach($prestasis[$student] as $prestasi)
+                        <div class="bg-gray-700 p-3 rounded-lg mb-2 group relative hover:bg-gray-600 transition">
+                            <p class="text-gray-200 text-sm flex items-start">
+                                <i class="fas fa-trophy text-yellow-400 mr-2 mt-1 flex-shrink-0"></i>
+                                <span class="font-medium">{{ $prestasi->title }}</span>
+                            </p>
+                            <div class="flex justify-end space-x-2 mt-2 opacity-0 group-hover:opacity-100 transition-opacity absolute top-1 right-2 bg-gray-700 rounded p-1 shadow-md">
+                                <button onclick="event.stopPropagation(); openEditModal({{ $prestasi->id }}, {{ json_encode($student) }}, {{ json_encode($prestasi->title) }}, {{ json_encode($prestasi->description) }})" class="text-xs bg-yellow-500 hover:bg-yellow-400 text-white p-2 rounded-full shadow-sm" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <form action="{{ route('prestasi.destroy', $prestasi->id) }}" method="POST" onsubmit="return confirm('Hapus prestasi ini?');" class="inline">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="text-xs bg-red-600 hover:bg-red-500 text-white p-2 rounded-full shadow-sm" title="Hapus">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        @endforeach
+                    @else
+                        <div class="flex flex-col items-center justify-center h-24 text-gray-500">
+                            <i class="far fa-sad-tear text-2xl mb-2 opacity-50"></i>
+                            <p class="text-sm italic">Belum ada prestasi.</p>
+                        </div>
+                    @endif
                 </div>
+                
+                <button onclick="openAddModal({{ json_encode($student) }})" class="mt-6 w-full text-sm bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 text-white py-3 rounded-full shadow-lg transition-all transform hover:-translate-y-1 flex items-center justify-center font-semibold">
+                    <i class="fas fa-plus-circle mr-2"></i> Tambah
+                </button>
             </div>
-            <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.4s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 2]</h3>
-                <div class="space-y-3">
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 1]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 2]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 3]</span>
-                    </p>
-                </div>
-            </div>
-            <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.6s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 3]</h3>
-                <div class="space-y-3">
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 1]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 2]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 3]</span>
-                    </p>
-                </div>
-            </div>
-            <div class="skill-card p-10 animate-on-scroll" style="animation-delay: 0.8s;">
-                <h3 class="text-3xl font-bold text-white mb-6">[Nama Anggota 4]</h3>
-                <div class="space-y-3">
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 1]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 2]</span>
-                    </p>
-                    <p class="text-gray-300 text-sm flex items-start">
-                        <i class="fas fa-trophy text-primary-blue mr-3 mt-1 flex-shrink-0"></i>
-                        <span>[Prestasi 3]</span>
-                    </p>
-                </div>
-            </div>
+            @endforeach
         </div>
     </section>
     <!-- Footer -->
@@ -285,26 +264,83 @@
         </div>
     </footer>
     <!-- Modal Pop-up (Tersembunyi secara default) -->  
-    <div id="project-modal" class="modal-overlay">
-        <div class="modal-content">
-            <button class="modal-close" id="close-modal">&times;</button>
-            <h3 id="modal-title" class="text-4xl font-bold text-primary-blue mb-4"></h3>
-            <img id="modal-image" src="" alt="" class="w-full h-auto rounded-lg mb-6 shadow-md border border-primary-blue/30">
-            <p id="modal-description" class="text-gray-300 text-lg leading-relaxed mb-6"></p>
-            <div class="flex flex-wrap gap-4 mt-4 justify-center md:justify-start">
-                <button id="enhance-description-button" >
-                    <div id="enhance-description-spinner" class="loading-spinner ml-2 hidden"></div>
-                </button>
-                <a id="modal-demo-link" href="#" target="_blank" class="bg-primary-blue text-white px-7 py-3 rounded-full text-md font-semibold hover:bg-blue-700 transition-colors flex items-center transform hover:scale-105">
-                    <i class="fas fa-external-link-alt mr-2"></i> Lihat Demo
-                </a>
-                <a id="modal-github-link" href="#" target="_blank" class="bg-gray-700 text-white px-7 py-3 rounded-full text-md font-semibold hover:bg-gray-600 transition-colors flex items-center transform hover:scale-105">
-                    <i class="fab fa-github mr-2"></i> GitHub
-                </a>
-            </div>
-            <p id="gemini-enhanced-description" class="text-gray-400 mt-6 text-sm italic border-t border-gray-700 pt-4 hidden"></p>
+    <!-- Modal Tambah/Edit Prestasi -->
+    <div id="prestasi-modal" class="modal-overlay hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+        <div class="modal-content bg-dark-gray p-8 rounded-lg shadow-xl w-full max-w-md relative border border-gray-700">
+            <button class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl" onclick="closePrestasiModal()">&times;</button>
+            <h3 id="prestasi-modal-title" class="text-2xl font-bold text-primary-blue mb-6">Tambah Prestasi</h3>
+            
+            <form id="prestasi-form" action="{{ route('prestasi.store') }}" method="POST">
+                @csrf
+                <div id="method-spoofing"></div>
+                <input type="hidden" name="student_name" id="student_name_input">
+                
+                <div class="mb-4">
+                    <label class="block text-gray-300 mb-2 font-semibold">Nama Mahasiswa</label>
+                    <input type="text" id="student_name_display" class="w-full bg-gray-700 text-gray-300 p-3 rounded border border-gray-600 focus:border-primary-blue focus:outline-none" readonly>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-gray-300 mb-2 font-semibold">Judul Prestasi</label>
+                    <input type="text" name="title" id="prestasi_title" class="w-full bg-gray-700 text-white p-3 rounded border border-gray-600 focus:border-primary-blue focus:outline-none" required placeholder="Juara 1 Lomba Web Design...">
+                </div>
+
+                <div class="mb-6">
+                    <label class="block text-gray-300 mb-2 font-semibold">Deskripsi (Opsional)</label>
+                    <textarea name="description" id="prestasi_description" class="w-full bg-gray-700 text-white p-3 rounded border border-gray-600 focus:border-primary-blue focus:outline-none" rows="3"></textarea>
+                </div>
+                
+                <button type="submit" class="w-full bg-primary-blue hover:bg-blue-700 text-white py-3 rounded-lg font-bold transition-all transform hover:scale-105">Simpan</button>
+            </form>
         </div>
     </div>
+
+    <!-- Script untuk Modal Prestasi -->
+    <script>
+        function openAddModal(studentName) {
+            const modal = document.getElementById('prestasi-modal');
+            modal.classList.remove('hidden');
+            // Sedikit delay agar transisi CSS 'open' berjalan
+            setTimeout(() => {
+                modal.classList.add('open');
+            }, 10);
+
+            document.getElementById('prestasi-modal-title').innerText = 'Tambah Prestasi';
+            document.getElementById('prestasi-form').action = "{{ route('prestasi.store') }}";
+            document.getElementById('method-spoofing').innerHTML = '';
+            
+            document.getElementById('student_name_input').value = studentName;
+            document.getElementById('student_name_display').value = studentName;
+            document.getElementById('prestasi_title').value = '';
+            document.getElementById('prestasi_description').value = '';
+        }
+
+        function openEditModal(id, studentName, title, description) {
+            const modal = document.getElementById('prestasi-modal');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.add('open');
+            }, 10);
+
+            document.getElementById('prestasi-modal-title').innerText = 'Edit Prestasi';
+            document.getElementById('prestasi-form').action = "/prestasi/" + id;
+            document.getElementById('method-spoofing').innerHTML = '@method("PUT")';
+            
+            document.getElementById('student_name_input').value = studentName;
+            document.getElementById('student_name_display').value = studentName;
+            document.getElementById('prestasi_title').value = title;
+            document.getElementById('prestasi_description').value = description;
+        }
+
+        function closePrestasiModal() {
+            const modal = document.getElementById('prestasi-modal');
+            modal.classList.remove('open');
+            // Tunggu transisi selesai sebelum hidden
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 400);
+        }
+    </script>
     <!-- Link ke file JavaScript eksternal Anda -->
     <script src="{{ asset('js/script.js') }}"></script>
 </body>

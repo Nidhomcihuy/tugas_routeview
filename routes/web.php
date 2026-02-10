@@ -13,13 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('menu1');
-});
+use App\Http\Controllers\PrestasiController;
 
-Route::get('/menu1', function () {
-    return view('menu1');
-});
+Route::get('/', [PrestasiController::class, 'index']);
+Route::resource('prestasi', PrestasiController::class);
+
+Route::get('/menu1', [PrestasiController::class, 'index']);
 
 Route::get('/menu2', function () {
     return view('menu2');
